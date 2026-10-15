@@ -1,0 +1,50 @@
+.div-container{
+    text-align: center;
+    width: 100vw;
+    max-width: 100%;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.7rem;
+}
+
+.input{
+    width: 40%;
+    margin-right: 1rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    height: 2.8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.search-button{
+    width: 6rem;
+    height: 2.8rem;
+    font-size: 1.2rem;
+    border: 1px solid hsl(0, 0%, 0%);
+    border-radius: 1.8rem;
+    background-color: hsl(120, 100%, 50%);
+}
+
+.search-button:hover{
+   background-color: hsl(120, 100%, 45%); 
+   cursor: pointer;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+}
+.loading{
+    color: blue;
+}
+
+
+span{
+    color: red;
+}
